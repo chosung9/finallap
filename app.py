@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # 구글 시트 CSV 링크 (선생님의 링크를 넣어주세요)
-sheet_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQKELDL8KGooVOUxgK2TEqkHebD74Sh3HrTMOajWRkQX0rBsPyQIk-obyh7n_FhGKkHl3YIDLnJGGoK/pubhtml"
+sheet_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQKELDL8KGooVOUxgK2TEqkHebD74Sh3HrTMOajWRkQX0rBsPyQIk-obyh7n_FhGKkHl3YIDLnJGGoK/pub?output=csv"
 
 @st.cache_data(ttl=60)
 def load_data(url):
